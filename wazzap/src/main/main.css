@@ -1,0 +1,25 @@
+.start{
+    background-color: rgba(64, 64, 64, 0.7);
+    display: flex;
+    flex-flow: column;
+    border-radius: 15px;
+}
+
+.input__item{
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.input__item input{
+    background-color: transparent;
+    border: none;
+    padding: 0.1rem;
+    margin-left: 0.4rem;
+    border-bottom: 1px solid #fff;
+    color: white;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 1rem;
+}
