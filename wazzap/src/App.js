@@ -47,6 +47,8 @@ function App() {
     
     window['$'].ajax(settings).done(function (response) {
       console.log(response);
+      alert("enviado");
+      setMessage('')
     });
   }
 
